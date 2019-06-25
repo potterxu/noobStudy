@@ -1,0 +1,19 @@
+# Count input number before $
+add_executable(17_1
+    main1.cpp
+)
+
+# input to file
+add_executable(17_2
+    main2.cpp
+)
+
+# copy to another file
+add_executable(17_3
+    main3.cpp
+)
+
+# combine two files
+add_executable(17_4
+    main4.cpp
+)
