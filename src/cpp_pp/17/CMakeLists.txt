@@ -17,3 +17,8 @@ add_executable(17_3
 add_executable(17_4
     main4.cpp
 )
+
+# read lines from two file, display and remove redundancy
+add_executable(17_5
+    main5.cpp
+)
