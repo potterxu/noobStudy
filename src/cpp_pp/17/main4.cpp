@@ -30,25 +30,18 @@ int main() {
         cout << "Cannot open " << outName << endl;
     }
     
-    string input;
+    string input1;
     string input2;
-    while (!in1.eof() && !in2.eof()) {
-        getline(in1, input);
-        getline(in2, input2);
-        if (input.empty() && input2.empty()) {
-            break;
+    while(getline(in1, input1)) {
+        if (getline(in2, input2)) {
+            out << input1 << " " << input2 << endl;
+        } else {
+            out << input1 << endl;
         }
-        if (!input.empty()) {
-            out << input;
-        }
-        if (!input.empty() && !input2.empty()) {
-            out << " ";
-        }
-        if (!input2.empty()) {
-            out << input2;
-        }
-        out << endl;
-}
+    }
+    while(getline(in2, input2)) {
+        out << input2 << endl;
+    }
     in1.close();
     in2.close();
     out.close();
