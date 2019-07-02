@@ -1,4 +1,4 @@
-add_library(leecode_algo
+add_library(leetcode_algo
     addTwoNumbers.cpp
     twoSum.cpp
 )

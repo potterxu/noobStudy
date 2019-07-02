@@ -44,5 +44,5 @@ ListNode* sumNodes(ListNode* l1, ListNode* l2, int carry = 0) {
 }
 
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-    sumNodes(l1, l2);
+    return sumNodes(l1, l2);
 }
