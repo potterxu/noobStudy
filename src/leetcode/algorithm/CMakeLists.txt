@@ -1,4 +1,15 @@
 add_library(leetcode_algo
+    657_robotReturnToOrigin.cpp
+    709_toLowerCase.cpp
+    771_jewelInStone.cpp
+    804_uniqueMorseCode.cpp
+    832_flipImage.cpp
+    905_sortByParity.cpp
+    938_rangeSumOfBst.cpp
+    961_nRepeatElement.cpp
+    977_squareOfSortedArray.cpp
+    1021_removeOutermostParentheses.cpp
+    1108_defangingIP.cpp
     addTwoNumbers.cpp
     ambiguousCoordinates.cpp
     longestSubstringWithoutRepeat.cpp
