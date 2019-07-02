@@ -5,3 +5,4 @@ project(noobStudy)
 
 add_subdirectory(cpp_pp)
 add_subdirectory(dataStructure)
+add_subdirectory(leecode)
