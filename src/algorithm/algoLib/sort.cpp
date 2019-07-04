@@ -22,9 +22,50 @@ void _selectionSort(vector<int> &vec, int startIndex) {
     }
 }
 
+/*
+ * Recursively doing bubble sorting on the sub vector
+ */
+void _bubbleSort(vector<int> &vec, int startIndex)
+{
+    if (startIndex == vec.size() - 1) {
+        return;
+    }
+    for (int i = vec.size() - 1; i > startIndex; --i) {
+        if (vec[i] < vec[i-1]) {
+            swap(vec[i], vec[i-1]);
+        }
+    }
+    _bubbleSort(vec, startIndex + 1);
+}
+
+void _insertSort(std::vector<int> &vec, int pivotIndex) {
+    if (pivotIndex == vec.size()) {
+        return;
+    }
+    int target = vec[pivotIndex];
+    for (int i = pivotIndex - 1; i >= 0; --i) {
+        if (target < vec[i]) {
+            vec[pivotIndex] = vec[i];
+            pivotIndex = i;
+        }
+    }
+    vec[pivotIndex] = target;
+    _insertSort(vec, pivotIndex+1);
+}
+
 void selectionSort(vector<int> &vec)
 {
     _selectionSort(vec, 0);
+}
+
+void bubbleSort(vector<int> &vec)
+{
+    _bubbleSort(vec, 0);
+}
+
+void insertSort(std::vector<int> &vec)
+{
+    _insertSort(vec, 1);
 }
 
 }
