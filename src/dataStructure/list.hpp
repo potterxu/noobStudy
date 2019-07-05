@@ -23,23 +23,19 @@ public:
         return m_head->m_value;
     }
 
-    T end()
+    void insert(T t, int index = -1)
     {
-        if (m_length <= 0) {
-            printf("List has no element.\n");
-            return -1;
+        if (index >= m_length || index == -1) {
+            // insert at the end of the list
+            index = m_length;
         }
-        return m_end->m_value;
-    }
-
-    void push_back(T t)
-    {
-        if (m_length == 0) {
-            m_head = m_end = new Node<T>(t);
-        } else {
-            m_end->m_nextNode = new Node<T>(t);
-            m_end = m_end->m_nextNode;
+        if (index == 0) {
+            m_head = new Node<T>(t, m_head);
+            m_length++;
+            return;
         }
+        Node<T> *pre_ptr = operator[](index - 1);
+        pre_ptr->m_nextNode = new Node<T>(t, pre_ptr->m_nextNode);
         m_length++;
     }
 
@@ -50,22 +46,18 @@ public:
             return;
         }
 
-        Node<T> *pre_ptr = nullptr;
-        Node<T> *toBeRemove;
+        m_length--;
         if (index == 0) {
-            toBeRemove = m_head;
+            Node<T> *tmp = m_head;
             m_head = m_head->m_nextNode;
-        } else {
-            pre_ptr = operator[](index-1);
-            toBeRemove = pre_ptr->m_nextNode;
-            pre_ptr->m_nextNode = toBeRemove->m_nextNode;
+            delete tmp;
+            return;
         }
 
-        if (index == m_length - 1) {
-            m_end = pre_ptr;
-        }
-        m_length--;
-        delete toBeRemove;
+        Node<T> *pre_ptr = operator[](index-1);
+        Node<T> *ptrToRemove = pre_ptr->m_nextNode;
+        pre_ptr->m_nextNode = ptrToRemove->m_nextNode;
+        delete ptrToRemove;
     }
 
     void clear()
@@ -118,7 +110,6 @@ public:
 private:
 
     Node<T> *m_head = nullptr;
-    Node<T> *m_end = nullptr;
     int m_length = 0;
 };
 }
