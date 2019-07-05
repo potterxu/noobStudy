@@ -80,6 +80,20 @@ public:
         return ptr;
     }
 
+    int find(T t)
+    {
+        Node<T> *ptr = m_head;
+        int index = 0;
+        while (ptr != nullptr) {
+            if (ptr->m_value == t) {
+                return index;
+            }
+            index++;
+            ptr = ptr->m_nextNode;
+        }
+        return -1;
+    }
+
     void print()
     {
         stringstream ss;
