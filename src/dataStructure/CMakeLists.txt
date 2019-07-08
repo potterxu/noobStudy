@@ -7,6 +7,8 @@ add_library(dataStructureLib
     node.hpp
     queue.cpp
     queue.hpp
+    tree.cpp
+    tree.hpp
 )
 
 target_include_directories(dataStructureLib
