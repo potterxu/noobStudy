@@ -18,83 +18,111 @@ public:
     TreeNode<T> *m_right = nullptr;
 };
 
+template<class T>
+class Tree
+{
+public:
+    TreeNode<T> *search(T t)
+    {
+        return _search(t, m_root);
+    }
+
+    void clear()
+    {
+        _clear(m_root);
+        m_root = nullptr;
+    }
+
+    // Assume no repeat value
+    virtual void insert(T t) = 0;
+    virtual void remove(T t) = 0;
+    virtual void print() = 0;
+
+    TreeNode<T> *root()
+    {
+        return m_root;
+    }
+
+protected:
+    TreeNode<T> *_search(T t, TreeNode<T> *root)
+    {
+        if (root == nullptr) {
+            return nullptr;
+        }
+        if (t == root->m_value) {
+            return root;
+        } else if (t < root->m_value) {
+            return _search(t, root->m_left);
+        } else {
+            return _search(t, root->m_right);
+        }
+    }
+
+    void _clear(TreeNode<T> *node)
+    {
+        if (node == nullptr) {
+            return;
+        }
+        _clear(node->m_left);
+        _clear(node->m_right);
+        delete node;
+    }
+
+    TreeNode<T> *m_root = nullptr;
+};
+
 template <class T>
-class BinarySearchTree
+class BinarySearchTree : public Tree<T>
 {
 public:
     BinarySearchTree()
     {
-
-    }
-    TreeNode<T> *search(T t)
-    {
-        TreeNode<T> *ptr = m_root;
-        if (ptr == nullptr) {
-            ptr = m_root;
-        }
-        while (ptr != nullptr) {
-            if (t < ptr->m_value) {
-                ptr = ptr->m_left;
-            } else if (t > ptr->m_value) {
-                ptr = ptr->m_right;
-            } else {
-                break;
-            }
-        }
-        return ptr;
     }
 
     // Assume no repeat value
-    void insert(T t) {
+    virtual void insert(T t) override
+    {
         TreeNode<T> *node = new TreeNode<T>(t);
         if (m_root == nullptr) {
             m_root = node;
             return;
         }
-
-        TreeNode<T> *parent = m_root;
-        while(parent != nullptr) {
-            if (t < parent->m_value) {
-                if (parent->m_left == nullptr) {
-                    parent->m_left = node;
-                    break;
-                } else {
-                    parent = parent->m_left;
-                }
-            } else if (t > parent->m_value) {
-                if (parent->m_right == nullptr) {
-                    parent->m_right = node;
-                    break;
-                } else {
-                    parent = parent->m_right;
-                }
-            } else {
-                delete node;
-                return;
-            }
-        }
-        node->m_parent = parent;
+        _insert(node, m_root, nullptr);
     }
 
-    void clear() {
-        _clear(m_root);
-        m_root = nullptr;
-    }
-
-    void print() {
-        _print(m_root);
-    }
-
-    void remove(T t) {
+    virtual void remove(T t) override
+    {
         TreeNode<T> *ptr = search(t);
         _remove(ptr, &m_root);
     }
 
-    TreeNode<T> *root() {
-        return m_root;
+    virtual void print() override
+    {
+        _print(m_root);
     }
 
 protected:
+    void _insert(TreeNode<T> *node, TreeNode<T> *root, TreeNode<T> *parent)
+    {
+        if (root == nullptr) {
+            node->m_parent = parent;
+            if (node->m_value < parent->m_value) {
+                parent->m_left = node;
+            } else {
+                parent->m_right = node;
+            }
+            return;
+        }
+        if (node->m_value < root->m_value) {
+            _insert(node, root->m_left, root);
+        } else if (node->m_value > root->m_value) {
+            _insert(node, root->m_right, root);
+        } else {
+            delete node;
+            return;
+        }
+    }
+
     void _remove(TreeNode<T> *ptr, TreeNode<T> **root)
     {
         if (ptr == nullptr) {
@@ -134,16 +162,9 @@ protected:
         }
         delete ptr;
     }
-    void _clear(TreeNode<T> *node) {
-        if (node == nullptr) {
-            return;
-        }
-        _clear(node->m_left);
-        _clear(node->m_right);
-        delete node;
-    }
 
-    void _print(TreeNode<T> *node) {
+    void _print(TreeNode<T> *node)
+    {
         std::stringstream ss;
         if (node == nullptr) {
             ss << "{}, ";
@@ -156,7 +177,5 @@ protected:
         _print(node->m_left);
         _print(node->m_right);
     }
-
-    TreeNode<T> *m_root = nullptr;
 };
 }
