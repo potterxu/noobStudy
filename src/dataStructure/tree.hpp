@@ -12,8 +12,7 @@ public:
     {
     }
 
-    T m_value = 0;
-    TreeNode<T> *m_parent = nullptr;
+    T m_value;
     TreeNode<T> *m_left = nullptr;
     TreeNode<T> *m_right = nullptr;
 };
@@ -83,17 +82,12 @@ public:
     virtual void insert(T t) override
     {
         TreeNode<T> *node = new TreeNode<T>(t);
-        if (m_root == nullptr) {
-            m_root = node;
-            return;
-        }
-        _insert(node, m_root, nullptr);
+        m_root = _insert(m_root, node);
     }
 
     virtual void remove(T t) override
     {
-        TreeNode<T> *ptr = search(t);
-        _remove(ptr, &m_root);
+        _remove(m_root, t);
     }
 
     virtual void print() override
@@ -102,65 +96,66 @@ public:
     }
 
 protected:
-    void _insert(TreeNode<T> *node, TreeNode<T> *root, TreeNode<T> *parent)
+    TreeNode<T> *_insert(TreeNode<T> *root, TreeNode<T> *node)
     {
         if (root == nullptr) {
-            node->m_parent = parent;
-            if (node->m_value < parent->m_value) {
-                parent->m_left = node;
-            } else {
-                parent->m_right = node;
-            }
-            return;
+            return node;
         }
         if (node->m_value < root->m_value) {
-            _insert(node, root->m_left, root);
+            root->m_left = _insert(root->m_left, node);
         } else if (node->m_value > root->m_value) {
-            _insert(node, root->m_right, root);
+            root->m_right = _insert(root->m_right, node);
         } else {
             delete node;
-            return;
         }
+        return root;
     }
 
-    void _remove(TreeNode<T> *ptr, TreeNode<T> **root)
+    TreeNode<T> *_max(TreeNode<T> *root)
     {
-        if (ptr == nullptr) {
-            return;
+        while (root->m_right != nullptr) {
+            root = root->m_right;
+        }
+        return root;
+    }
+
+    TreeNode<T> *_min()
+    {
+        while (root->m_left != nullptr) {
+            root = root->m_left;
+        }
+        return root;
+    }
+
+    TreeNode<T> *_remove(TreeNode<T>* root, T t)
+    {
+        if (root == nullptr) {
+            return root;
         }
 
-        TreeNode<T> *newPtr = nullptr;
-        if (ptr->m_left == nullptr && ptr->m_right == nullptr) {
-            newPtr = nullptr;
-        } else if (ptr->m_left == nullptr && ptr->m_right != nullptr) {
-            newPtr = ptr->m_right;
-            newPtr->m_parent = ptr->m_parent;
-        } else if (ptr->m_left != nullptr && ptr->m_right == nullptr) {
-            newPtr = ptr->m_left;
-            newPtr->m_parent = ptr->m_parent;
-        } else if (ptr->m_left != nullptr && ptr->m_right != nullptr) {
-            TreeNode<T> *leftMax = ptr->m_left;
-            while (leftMax->m_right != nullptr) {
-                leftMax = leftMax->m_right;
-            }
-            newPtr = new TreeNode<T>(leftMax->m_value);
-            newPtr->m_parent = ptr->m_parent;
-            newPtr->m_left = ptr->m_left;
-            ptr->m_left->m_parent = newPtr;
-            newPtr->m_right = ptr->m_right;
-            ptr->m_right->m_parent = newPtr;
-            _remove(leftMax, &ptr->m_left);
-        }
-        if (ptr->m_parent != nullptr) {
-            if (ptr->m_value > ptr->m_parent->m_value) {
-                ptr->m_parent->m_right = newPtr;
+        if (t < root->m_value) {
+            root->m_left = _remove(root->m_left, t);
+        } else if (t > root->m_value) {
+            root->m_right = _remove(root->m_right, t);
+        } else if (t == root->m_value) {
+            if (root->m_left == nullptr && root->m_right == nullptr) {
+                delete root;
+                return nullptr;
+            } else if (root->m_left != nullptr && root->m_right == nullptr) {
+                delete root;
+                return root->m_left;
+            } else if (root->m_left == nullptr && root->m_right != nullptr) {
+                delete root;
+                return root->m_right;
             } else {
-                ptr->m_parent->m_left = newPtr;
+                TreeNode<T> *newRoot = root->m_left;
+                newRoot->m_left = _remove(root->m_left, newRoot->m_value);
+                newRoot->m_right = m_root->m_right;
+                delete root;
+                return newRoot;
             }
-        } else {
-            *root = newPtr;
         }
-        delete ptr;
+        return root;
     }
 
     void _print(TreeNode<T> *node)
