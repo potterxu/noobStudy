@@ -1,6 +1,8 @@
 add_library(leetcode_algo
     461_hammingDistance.cpp
     509_fibonacciNumber.cpp
+    557_reverseWordsInString3.cpp
+    559_maxDepthOfNaryTree.cpp
     561_arrayPartition1.cpp
     589_NaryTreePreorderTraversal.cpp
     590_NaryTreePostorderTraversal.cpp
@@ -8,12 +10,19 @@ add_library(leetcode_algo
     657_robotReturnToOrigin.cpp
     700_searchInBST.cpp
     709_toLowerCase.cpp
+    728_selfDividingNumber.cpp
     771_jewelInStone.cpp
     804_uniqueMorseCode.cpp
+    811_subdomainVisitCount.cpp
+    821_shortestDistanceToAChar.cpp
     832_flipImage.cpp
     852_peakIndexInMountainArray.cpp
+    867_transposeMatrix.cpp
+    876_midOfLinkedList.cpp
     883_projectionAreaOf3dShapes.cpp
+    896_increasingOrderSearchTree.cpp
     905_sortByParity.cpp
+    908_smallestRange1.cpp
     922_sortArrayByParity2.cpp
     929_uniqueEmailAddrs.cpp
     933_numOfRecentCalls.cpp
@@ -23,7 +32,10 @@ add_library(leetcode_algo
     961_nRepeatElement.cpp
     977_squareOfSortedArray.cpp
     999_availableCapturesForRook.cpp
+    1002_findCommonChar.cpp
     1021_removeOutermostParentheses.cpp
+    1030_matrixCellInDistanceOrder.cpp
+    1047_removeAdjacentDuplicate.cpp
     1051_heightChecker.cpp
     1078_occurrencesAfterBigram.cpp
     1108_defangingIP.cpp
