@@ -1,18 +1,33 @@
 add_library(leetcode_algo
     461_hammingDistance.cpp
+    509_fibonacciNumber.cpp
+    561_arrayPartition1.cpp
+    589_NaryTreePreorderTraversal.cpp
+    590_NaryTreePostorderTraversal.cpp
     617_mergeBST.cpp
     657_robotReturnToOrigin.cpp
+    700_searchInBST.cpp
     709_toLowerCase.cpp
     771_jewelInStone.cpp
     804_uniqueMorseCode.cpp
     832_flipImage.cpp
+    852_peakIndexInMountainArray.cpp
+    883_projectionAreaOf3dShapes.cpp
     905_sortByParity.cpp
+    922_sortArrayByParity2.cpp
+    929_uniqueEmailAddrs.cpp
+    933_numOfRecentCalls.cpp
     938_rangeSumOfBst.cpp
     942_diStringMatch.cpp
+    944_deleteColumnsToMakeSorted.cpp
     961_nRepeatElement.cpp
     977_squareOfSortedArray.cpp
+    999_availableCapturesForRook.cpp
     1021_removeOutermostParentheses.cpp
+    1051_heightChecker.cpp
+    1078_occurrencesAfterBigram.cpp
     1108_defangingIP.cpp
+    1122_relativeSortArray.cpp
     addTwoNumbers.cpp
     ambiguousCoordinates.cpp
     longestSubstringWithoutRepeat.cpp
