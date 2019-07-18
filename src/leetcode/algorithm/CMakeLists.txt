@@ -1,4 +1,6 @@
 add_library(leetcode_algo
+    461_hammingDistance.cpp
+    617_mergeBST.cpp
     657_robotReturnToOrigin.cpp
     709_toLowerCase.cpp
     771_jewelInStone.cpp
@@ -6,6 +8,7 @@ add_library(leetcode_algo
     832_flipImage.cpp
     905_sortByParity.cpp
     938_rangeSumOfBst.cpp
+    942_diStringMatch.cpp
     961_nRepeatElement.cpp
     977_squareOfSortedArray.cpp
     1021_removeOutermostParentheses.cpp
