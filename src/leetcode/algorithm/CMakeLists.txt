@@ -1,4 +1,6 @@
 add_library(leetcode_algo
+    104_maxDepthOfBinaryTree.cpp
+    136_singleNumber.cpp
     344_reverseString.cpp
     461_hammingDistance.cpp
     463_islandPerimeter.cpp
@@ -28,6 +30,7 @@ add_library(leetcode_algo
     872_leafSimilarTree.cpp
     876_midOfLinkedList.cpp
     883_projectionAreaOf3dShapes.cpp
+    884_uncommonWords.cpp
     893_groupsOfSpecialEquivalentStrings.cpp
     896_increasingOrderSearchTree.cpp
     905_sortByParity.cpp
