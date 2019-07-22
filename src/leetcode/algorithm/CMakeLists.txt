@@ -1,6 +1,7 @@
 add_library(leetcode_algo
     104_maxDepthOfBinaryTree.cpp
     136_singleNumber.cpp
+    226_invertBinaryTree.cpp
     344_reverseString.cpp
     429_naryTreeLevelOrderTraversal.cpp
     461_hammingDistance.cpp
@@ -21,16 +22,19 @@ add_library(leetcode_algo
     657_robotReturnToOrigin.cpp
     669_trimBST.cpp
     682_baseballGame.cpp
+    693_hasAlternatingBits.cpp
     700_searchInBST.cpp
     709_toLowerCase.cpp
     728_selfDividingNumber.cpp
     762_primeNumberOfSetBits.cpp
     766_toeplitzMatrix.cpp
     771_jewelInStone.cpp
+    784_letterCasePermutation.cpp
     804_uniqueMorseCode.cpp
     806_numOfLinesToWriteString.cpp
     811_subdomainVisitCount.cpp
     821_shortestDistanceToAChar.cpp
+    824_goatLatin.cpp
     832_flipImage.cpp
     852_peakIndexInMountainArray.cpp
     867_transposeMatrix.cpp
