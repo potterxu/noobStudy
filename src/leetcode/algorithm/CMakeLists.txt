@@ -2,22 +2,29 @@ add_library(leetcode_algo
     104_maxDepthOfBinaryTree.cpp
     136_singleNumber.cpp
     344_reverseString.cpp
+    429_naryTreeLevelOrderTraversal.cpp
     461_hammingDistance.cpp
     463_islandPerimeter.cpp
     476_findComplement.cpp
+    496_nextGreaterElement1.cpp
     500_keyboardRow.cpp
     509_fibonacciNumber.cpp
     557_reverseWordsInString3.cpp
     559_maxDepthOfNaryTree.cpp
     561_arrayPartition1.cpp
+    566_reshapeMatrix.cpp
+    575_distributeCandy.cpp
     589_NaryTreePreorderTraversal.cpp
     590_NaryTreePostorderTraversal.cpp
     617_mergeBST.cpp
+    637_averageOfLevelsInBinaryTree.cpp
     657_robotReturnToOrigin.cpp
+    669_trimBST.cpp
     682_baseballGame.cpp
     700_searchInBST.cpp
     709_toLowerCase.cpp
     728_selfDividingNumber.cpp
+    762_primeNumberOfSetBits.cpp
     766_toeplitzMatrix.cpp
     771_jewelInStone.cpp
     804_uniqueMorseCode.cpp
@@ -27,6 +34,7 @@ add_library(leetcode_algo
     832_flipImage.cpp
     852_peakIndexInMountainArray.cpp
     867_transposeMatrix.cpp
+    868_binaryGap.cpp
     872_leafSimilarTree.cpp
     876_midOfLinkedList.cpp
     883_projectionAreaOf3dShapes.cpp
@@ -47,6 +55,8 @@ add_library(leetcode_algo
     999_availableCapturesForRook.cpp
     1002_findCommonChar.cpp
     1003_distributeCandyToPeople.cpp
+    1009_bitwiseComplement.cpp
+    1089_duplicateZero.cpp
     1021_removeOutermostParentheses.cpp
     1025_divisorGame.cpp
     1030_matrixCellInDistanceOrder.cpp
