@@ -1,13 +1,20 @@
 add_library(leetcode_algo
+    13_romanToInteger.cpp
     104_maxDepthOfBinaryTree.cpp
     136_singleNumber.cpp
+    169_majorityElement.cpp
     206_reverseLinkedList.cpp
     226_invertBinaryTree.cpp
+    237_deleteNodeInLinkedList.cpp
+    242_validAnagram.cpp
+    258_addDigits.cpp
     283_moveZeros.cpp
     292_nimGame.cpp
     344_reverseString.cpp
     349_intersectionOfTwoArray.cpp
+    389_findTheDifference.cpp
     429_naryTreeLevelOrderTraversal.cpp
+    448_findAllNumDisappear.cpp
     461_hammingDistance.cpp
     463_islandPerimeter.cpp
     476_findComplement.cpp
@@ -15,6 +22,7 @@ add_library(leetcode_algo
     496_nextGreaterElement1.cpp
     500_keyboardRow.cpp
     509_fibonacciNumber.cpp
+    521_longestUncommonSubstring1.cpp
     557_reverseWordsInString3.cpp
     559_maxDepthOfNaryTree.cpp
     561_arrayPartition1.cpp
@@ -27,7 +35,9 @@ add_library(leetcode_algo
     657_robotReturnToOrigin.cpp
     669_trimBST.cpp
     682_baseballGame.cpp
+    690_employeeImportance.cpp
     693_hasAlternatingBits.cpp
+    696_countBinarySubStrings.cpp
     700_searchInBST.cpp
     709_toLowerCase.cpp
     728_selfDividingNumber.cpp
@@ -51,6 +61,7 @@ add_library(leetcode_algo
     883_projectionAreaOf3dShapes.cpp
     884_uncommonWords.cpp
     892_surfaceAreaOf3dShapes.cpp
+    888_fairCandySwap.cpp
     893_groupsOfSpecialEquivalentStrings.cpp
     896_monotonicArray.cpp
     897_increasingOrderSearchTree.cpp
@@ -60,11 +71,13 @@ add_library(leetcode_algo
     922_sortArrayByParity2.cpp
     929_uniqueEmailAddrs.cpp
     933_numOfRecentCalls.cpp
+    937_reorderLogs.cpp
     938_rangeSumOfBst.cpp
     942_diStringMatch.cpp
     944_deleteColumnsToMakeSorted.cpp
     953_isAlienSorted.cpp
     961_nRepeatElement.cpp
+    976_largestPerimeterTriangle.cpp
     977_squareOfSortedArray.cpp
     985_sumOfEvenNumberAfterQuery.cpp
     999_availableCapturesForRook.cpp
@@ -72,6 +85,9 @@ add_library(leetcode_algo
     1003_distributeCandyToPeople.cpp
     1009_bitwiseComplement.cpp
     1013_partitionArrayIntoThreePartsOfEqualSum.cpp
+    1022_sumOfRootToLeaf.cpp
+    1029_twoCitySchedule.cpp
+    1071_gcdOfStrings.cpp
     1089_duplicateZero.cpp
     1021_removeOutermostParentheses.cpp
     1025_divisorGame.cpp
