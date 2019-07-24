@@ -1,12 +1,17 @@
 add_library(leetcode_algo
     104_maxDepthOfBinaryTree.cpp
     136_singleNumber.cpp
+    206_reverseLinkedList.cpp
     226_invertBinaryTree.cpp
+    283_moveZeros.cpp
+    292_nimGame.cpp
     344_reverseString.cpp
+    349_intersectionOfTwoArray.cpp
     429_naryTreeLevelOrderTraversal.cpp
     461_hammingDistance.cpp
     463_islandPerimeter.cpp
     476_findComplement.cpp
+    485_maxConsecutiveOnes.cpp
     496_nextGreaterElement1.cpp
     500_keyboardRow.cpp
     509_fibonacciNumber.cpp
@@ -26,10 +31,12 @@ add_library(leetcode_algo
     700_searchInBST.cpp
     709_toLowerCase.cpp
     728_selfDividingNumber.cpp
+    748_shortestCompletionWord.cpp
     762_primeNumberOfSetBits.cpp
     766_toeplitzMatrix.cpp
     771_jewelInStone.cpp
     784_letterCasePermutation.cpp
+    788_rotatedDigits.cpp
     804_uniqueMorseCode.cpp
     806_numOfLinesToWriteString.cpp
     811_subdomainVisitCount.cpp
@@ -43,16 +50,20 @@ add_library(leetcode_algo
     876_midOfLinkedList.cpp
     883_projectionAreaOf3dShapes.cpp
     884_uncommonWords.cpp
+    892_surfaceAreaOf3dShapes.cpp
     893_groupsOfSpecialEquivalentStrings.cpp
-    896_increasingOrderSearchTree.cpp
+    896_monotonicArray.cpp
+    897_increasingOrderSearchTree.cpp
     905_sortByParity.cpp
     908_smallestRange1.cpp
+    917_reverseOnlyLetters.cpp
     922_sortArrayByParity2.cpp
     929_uniqueEmailAddrs.cpp
     933_numOfRecentCalls.cpp
     938_rangeSumOfBst.cpp
     942_diStringMatch.cpp
     944_deleteColumnsToMakeSorted.cpp
+    953_isAlienSorted.cpp
     961_nRepeatElement.cpp
     977_squareOfSortedArray.cpp
     985_sumOfEvenNumberAfterQuery.cpp
@@ -60,6 +71,7 @@ add_library(leetcode_algo
     1002_findCommonChar.cpp
     1003_distributeCandyToPeople.cpp
     1009_bitwiseComplement.cpp
+    1013_partitionArrayIntoThreePartsOfEqualSum.cpp
     1089_duplicateZero.cpp
     1021_removeOutermostParentheses.cpp
     1025_divisorGame.cpp
