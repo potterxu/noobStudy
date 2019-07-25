@@ -36,6 +36,7 @@ add_library(leetcode_algo
     617_mergeBST.cpp
     637_averageOfLevelsInBinaryTree.cpp
     653_twoSum4.cpp
+    654_mbt.cpp
     657_robotReturnToOrigin.cpp
     669_trimBST.cpp
     682_baseballGame.cpp
@@ -43,6 +44,7 @@ add_library(leetcode_algo
     693_hasAlternatingBits.cpp
     696_countBinarySubStrings.cpp
     700_searchInBST.cpp
+    701_insertIntoBST.cpp
     709_toLowerCase.cpp
     728_selfDividingNumber.cpp
     748_shortestCompletionWord.cpp
@@ -53,6 +55,7 @@ add_library(leetcode_algo
     788_rotatedDigits.cpp
     804_uniqueMorseCode.cpp
     806_numOfLinesToWriteString.cpp
+    807_maxIncreaseToKeepCitySkyline.cpp
     811_subdomainVisitCount.cpp
     821_shortestDistanceToAChar.cpp
     824_goatLatin.cpp
@@ -91,6 +94,7 @@ add_library(leetcode_algo
     1013_partitionArrayIntoThreePartsOfEqualSum.cpp
     1022_sumOfRootToLeaf.cpp
     1029_twoCitySchedule.cpp
+    1038_bstToGst.cpp
     1071_gcdOfStrings.cpp
     1089_duplicateZero.cpp
     1021_removeOutermostParentheses.cpp
