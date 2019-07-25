@@ -1,9 +1,11 @@
 add_library(leetcode_algo
     13_romanToInteger.cpp
     104_maxDepthOfBinaryTree.cpp
+    122_bestTimeToBuyAndSellStock2.cpp
     136_singleNumber.cpp
     169_majorityElement.cpp
     206_reverseLinkedList.cpp
+    217_containDuplicate.cpp
     226_invertBinaryTree.cpp
     237_deleteNodeInLinkedList.cpp
     242_validAnagram.cpp
@@ -22,6 +24,7 @@ add_library(leetcode_algo
     496_nextGreaterElement1.cpp
     500_keyboardRow.cpp
     509_fibonacciNumber.cpp
+    520_detectCapital.cpp
     521_longestUncommonSubstring1.cpp
     557_reverseWordsInString3.cpp
     559_maxDepthOfNaryTree.cpp
@@ -32,6 +35,7 @@ add_library(leetcode_algo
     590_NaryTreePostorderTraversal.cpp
     617_mergeBST.cpp
     637_averageOfLevelsInBinaryTree.cpp
+    653_twoSum4.cpp
     657_robotReturnToOrigin.cpp
     669_trimBST.cpp
     682_baseballGame.cpp
