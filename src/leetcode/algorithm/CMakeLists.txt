@@ -15,7 +15,9 @@ add_library(leetcode_algo
     344_reverseString.cpp
     349_intersectionOfTwoArray.cpp
     389_findTheDifference.cpp
+    404_sumOfLeftLeaves.cpp
     429_naryTreeLevelOrderTraversal.cpp
+    447_numOfBoomerangs.cpp
     448_findAllNumDisappear.cpp
     461_hammingDistance.cpp
     463_islandPerimeter.cpp
