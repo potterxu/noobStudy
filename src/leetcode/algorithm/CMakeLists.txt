@@ -1,33 +1,49 @@
 add_library(leetcode_algo
     13_romanToInteger.cpp
+    100_sameTree.cpp
     104_maxDepthOfBinaryTree.cpp
+    108_convertSortedArrayToBST.cpp
     122_bestTimeToBuyAndSellStock2.cpp
     136_singleNumber.cpp
+    167_twoSum2.cpp
     169_majorityElement.cpp
+    171_excelSheetColumnNumber.cpp
     206_reverseLinkedList.cpp
     217_containDuplicate.cpp
     226_invertBinaryTree.cpp
     237_deleteNodeInLinkedList.cpp
     242_validAnagram.cpp
     258_addDigits.cpp
+    268_missingNumber.cpp
     283_moveZeros.cpp
     292_nimGame.cpp
     344_reverseString.cpp
     349_intersectionOfTwoArray.cpp
+    350_intersectionOfTwoArrays2.cpp
+    371_sumOfTwoInt.cpp
+    383_ransomNote.cpp
+    387_findUniqueChar.cpp
     389_findTheDifference.cpp
     404_sumOfLeftLeaves.cpp
+    409_longestPalindrome.cpp
     429_naryTreeLevelOrderTraversal.cpp
     447_numOfBoomerangs.cpp
     448_findAllNumDisappear.cpp
+    453_minMovesToEqualArrayElements.cpp
+    455_assignCookies.cpp
     461_hammingDistance.cpp
     463_islandPerimeter.cpp
     476_findComplement.cpp
     485_maxConsecutiveOnes.cpp
+    492_constructRectangular.cpp
     496_nextGreaterElement1.cpp
     500_keyboardRow.cpp
+    506_relativeRanks.cpp
     509_fibonacciNumber.cpp
     520_detectCapital.cpp
     521_longestUncommonSubstring1.cpp
+    530_minAbsDiffInBST.cpp
+    538_convertBSTtoGT.cpp
     557_reverseWordsInString3.cpp
     559_maxDepthOfNaryTree.cpp
     561_arrayPartition1.cpp
@@ -35,26 +51,37 @@ add_library(leetcode_algo
     575_distributeCandy.cpp
     589_NaryTreePreorderTraversal.cpp
     590_NaryTreePostorderTraversal.cpp
+    598_rangeAddition2.cpp
+    599_minIndexSumOfTwoLists.cpp
+    606_constructStringFromBinaryTree.cpp
     617_mergeBST.cpp
     637_averageOfLevelsInBinaryTree.cpp
     653_twoSum4.cpp
     654_mbt.cpp
     657_robotReturnToOrigin.cpp
+    661_imageSmoother.cpp
     669_trimBST.cpp
     682_baseballGame.cpp
     690_employeeImportance.cpp
     693_hasAlternatingBits.cpp
     696_countBinarySubStrings.cpp
+    697_degreeOfAnArray.cpp
     700_searchInBST.cpp
     701_insertIntoBST.cpp
+    704_binarySearch.cpp
     709_toLowerCase.cpp
+    717_1and2bitChar.cpp
     728_selfDividingNumber.cpp
+    733_floodFill.cpp
     748_shortestCompletionWord.cpp
+    796_rotateString.cpp
     762_primeNumberOfSetBits.cpp
     766_toeplitzMatrix.cpp
     771_jewelInStone.cpp
+    783_minDistanceInBST.cpp
     784_letterCasePermutation.cpp
     788_rotatedDigits.cpp
+    796_rotateString.cpp
     804_uniqueMorseCode.cpp
     806_numOfLinesToWriteString.cpp
     807_maxIncreaseToKeepCitySkyline.cpp
@@ -63,6 +90,7 @@ add_library(leetcode_algo
     824_goatLatin.cpp
     832_flipImage.cpp
     852_peakIndexInMountainArray.cpp
+    860_lemonadeChange.cpp
     867_transposeMatrix.cpp
     868_binaryGap.cpp
     872_leafSimilarTree.cpp
@@ -89,9 +117,12 @@ add_library(leetcode_algo
     976_largestPerimeterTriangle.cpp
     977_squareOfSortedArray.cpp
     985_sumOfEvenNumberAfterQuery.cpp
+    993_cousinsInBinaryTree.cpp
+    997_findTheTownJudge.cpp
     999_availableCapturesForRook.cpp
     1002_findCommonChar.cpp
     1003_distributeCandyToPeople.cpp
+    1005_maxSumAfterKNegation.cpp
     1009_bitwiseComplement.cpp
     1013_partitionArrayIntoThreePartsOfEqualSum.cpp
     1022_sumOfRootToLeaf.cpp
