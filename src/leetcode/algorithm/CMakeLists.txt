@@ -128,6 +128,7 @@ add_library(leetcode_algo
     977_squareOfSortedArray.cpp
     985_sumOfEvenNumberAfterQuery.cpp
     993_cousinsInBinaryTree.cpp
+    994_rottingOranges.cpp
     997_findTheTownJudge.cpp
     999_availableCapturesForRook.cpp
     1002_findCommonChar.cpp
