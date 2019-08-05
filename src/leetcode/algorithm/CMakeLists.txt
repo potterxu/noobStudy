@@ -1,8 +1,12 @@
 add_library(leetcode_algo
     13_romanToInteger.cpp
+    21_mergeTwoSortedLists.cpp
     100_sameTree.cpp
     104_maxDepthOfBinaryTree.cpp
+    107_BinaryTreeLevelOrderTraversal.cpp
     108_convertSortedArrayToBST.cpp
+    118_pascalTriangle.cpp
+    121_bestTimeToBuyAndSellStock.cpp
     122_bestTimeToBuyAndSellStock2.cpp
     136_singleNumber.cpp
     167_twoSum2.cpp
@@ -13,6 +17,7 @@ add_library(leetcode_algo
     226_invertBinaryTree.cpp
     237_deleteNodeInLinkedList.cpp
     242_validAnagram.cpp
+    257_binaryTreePaths.cpp
     258_addDigits.cpp
     268_missingNumber.cpp
     283_moveZeros.cpp
@@ -44,9 +49,11 @@ add_library(leetcode_algo
     521_longestUncommonSubstring1.cpp
     530_minAbsDiffInBST.cpp
     538_convertBSTtoGT.cpp
+    543_diameterOfBinaryTree.cpp
     557_reverseWordsInString3.cpp
     559_maxDepthOfNaryTree.cpp
     561_arrayPartition1.cpp
+    563_binaryTreeTilt.cpp
     566_reshapeMatrix.cpp
     575_distributeCandy.cpp
     589_NaryTreePreorderTraversal.cpp
@@ -73,6 +80,7 @@ add_library(leetcode_algo
     717_1and2bitChar.cpp
     728_selfDividingNumber.cpp
     733_floodFill.cpp
+    746_minCostClimbStairs.cpp
     748_shortestCompletionWord.cpp
     796_rotateString.cpp
     762_primeNumberOfSetBits.cpp
@@ -88,7 +96,9 @@ add_library(leetcode_algo
     811_subdomainVisitCount.cpp
     821_shortestDistanceToAChar.cpp
     824_goatLatin.cpp
+    830_positionOfLargeGroups.cpp
     832_flipImage.cpp
+    836_rectangleOverlap.cpp
     852_peakIndexInMountainArray.cpp
     860_lemonadeChange.cpp
     867_transposeMatrix.cpp
@@ -125,9 +135,11 @@ add_library(leetcode_algo
     1005_maxSumAfterKNegation.cpp
     1009_bitwiseComplement.cpp
     1013_partitionArrayIntoThreePartsOfEqualSum.cpp
+    1018_binaryPrefixDividibleByFive.cpp
     1022_sumOfRootToLeaf.cpp
     1029_twoCitySchedule.cpp
     1038_bstToGst.cpp
+    1042_flowerPlantingWithoutAdjacent.cpp
     1071_gcdOfStrings.cpp
     1089_duplicateZero.cpp
     1021_removeOutermostParentheses.cpp
