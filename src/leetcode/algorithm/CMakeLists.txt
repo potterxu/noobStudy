@@ -12,6 +12,7 @@ add_library(leetcode_algo
     167_twoSum2.cpp
     169_majorityElement.cpp
     171_excelSheetColumnNumber.cpp
+    202_happyNumber.cpp
     206_reverseLinkedList.cpp
     217_containDuplicate.cpp
     226_invertBinaryTree.cpp
@@ -49,6 +50,7 @@ add_library(leetcode_algo
     521_longestUncommonSubstring1.cpp
     530_minAbsDiffInBST.cpp
     538_convertBSTtoGT.cpp
+    541_reverseString2.cpp
     543_diameterOfBinaryTree.cpp
     557_reverseWordsInString3.cpp
     559_maxDepthOfNaryTree.cpp
@@ -62,6 +64,7 @@ add_library(leetcode_algo
     599_minIndexSumOfTwoLists.cpp
     606_constructStringFromBinaryTree.cpp
     617_mergeBST.cpp
+    628_maximumProductOfThreeNumbers.cpp
     637_averageOfLevelsInBinaryTree.cpp
     653_twoSum4.cpp
     654_mbt.cpp
@@ -99,6 +102,7 @@ add_library(leetcode_algo
     830_positionOfLargeGroups.cpp
     832_flipImage.cpp
     836_rectangleOverlap.cpp
+    844_backspaceStringCompare.cpp
     852_peakIndexInMountainArray.cpp
     860_lemonadeChange.cpp
     867_transposeMatrix.cpp
