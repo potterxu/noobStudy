@@ -16,6 +16,7 @@ add_library(leetcode_algo
     206_reverseLinkedList.cpp
     217_containDuplicate.cpp
     226_invertBinaryTree.cpp
+    235_lowestCommonAncestor.cpp
     237_deleteNodeInLinkedList.cpp
     242_validAnagram.cpp
     257_binaryTreePaths.cpp
@@ -30,6 +31,7 @@ add_library(leetcode_algo
     383_ransomNote.cpp
     387_findUniqueChar.cpp
     389_findTheDifference.cpp
+    401_binaryWatch.cpp
     404_sumOfLeftLeaves.cpp
     409_longestPalindrome.cpp
     429_naryTreeLevelOrderTraversal.cpp
@@ -52,6 +54,7 @@ add_library(leetcode_algo
     538_convertBSTtoGT.cpp
     541_reverseString2.cpp
     543_diameterOfBinaryTree.cpp
+    551_AttendanceRecord1.cpp
     557_reverseWordsInString3.cpp
     559_maxDepthOfNaryTree.cpp
     561_arrayPartition1.cpp
@@ -81,6 +84,7 @@ add_library(leetcode_algo
     704_binarySearch.cpp
     709_toLowerCase.cpp
     717_1and2bitChar.cpp
+    720_longestWordInDict.cpp
     728_selfDividingNumber.cpp
     733_floodFill.cpp
     746_minCostClimbStairs.cpp
@@ -139,6 +143,7 @@ add_library(leetcode_algo
     1003_distributeCandyToPeople.cpp
     1005_maxSumAfterKNegation.cpp
     1009_bitwiseComplement.cpp
+    1010_pairsOfSongs.cpp
     1013_partitionArrayIntoThreePartsOfEqualSum.cpp
     1018_binaryPrefixDividibleByFive.cpp
     1022_sumOfRootToLeaf.cpp
