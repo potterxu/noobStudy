@@ -1,11 +1,14 @@
 add_library(leetcode_algo
     13_romanToInteger.cpp
     21_mergeTwoSortedLists.cpp
+    27_removeElements.cpp
+    70_climbStairs.cpp
     100_sameTree.cpp
     104_maxDepthOfBinaryTree.cpp
     107_BinaryTreeLevelOrderTraversal.cpp
     108_convertSortedArrayToBST.cpp
     118_pascalTriangle.cpp
+    119_pascalTriangle2.cpp
     121_bestTimeToBuyAndSellStock.cpp
     122_bestTimeToBuyAndSellStock2.cpp
     136_singleNumber.cpp
@@ -46,6 +49,7 @@ add_library(leetcode_algo
     492_constructRectangular.cpp
     496_nextGreaterElement1.cpp
     500_keyboardRow.cpp
+    504_base7.cpp
     506_relativeRanks.cpp
     509_fibonacciNumber.cpp
     520_detectCapital.cpp
@@ -63,6 +67,7 @@ add_library(leetcode_algo
     575_distributeCandy.cpp
     589_NaryTreePreorderTraversal.cpp
     590_NaryTreePostorderTraversal.cpp
+    594_findLHS.cpp
     598_rangeAddition2.cpp
     599_minIndexSumOfTwoLists.cpp
     606_constructStringFromBinaryTree.cpp
@@ -74,6 +79,7 @@ add_library(leetcode_algo
     657_robotReturnToOrigin.cpp
     661_imageSmoother.cpp
     669_trimBST.cpp
+    674_largestContinueIncreaseSequence.cpp
     682_baseballGame.cpp
     690_employeeImportance.cpp
     693_hasAlternatingBits.cpp
@@ -87,6 +93,7 @@ add_library(leetcode_algo
     720_longestWordInDict.cpp
     728_selfDividingNumber.cpp
     733_floodFill.cpp
+    744_findSmallestLetterLargerThanTarget.cpp
     746_minCostClimbStairs.cpp
     748_shortestCompletionWord.cpp
     796_rotateString.cpp
@@ -124,6 +131,7 @@ add_library(leetcode_algo
     908_smallestRange1.cpp
     917_reverseOnlyLetters.cpp
     922_sortArrayByParity2.cpp
+    925_longPressedName.cpp
     929_uniqueEmailAddrs.cpp
     933_numOfRecentCalls.cpp
     937_reorderLogs.cpp
