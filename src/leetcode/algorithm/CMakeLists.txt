@@ -3,8 +3,11 @@ add_library(leetcode_algo
     13_romanToInteger.cpp
     21_mergeTwoSortedLists.cpp
     27_removeElements.cpp
+    53_maxSubarray.cpp
     70_climbStairs.cpp
+    83_removeDuplicateFromSortedList.cpp
     100_sameTree.cpp
+    101_symmetricTree.cpp
     104_maxDepthOfBinaryTree.cpp
     107_BinaryTreeLevelOrderTraversal.cpp
     108_convertSortedArrayToBST.cpp
@@ -42,6 +45,7 @@ add_library(leetcode_algo
     409_longestPalindrome.cpp
     415_addStrings.cpp
     429_naryTreeLevelOrderTraversal.cpp
+    437_pathSum3.cpp
     447_numOfBoomerangs.cpp
     448_findAllNumDisappear.cpp
     453_minMovesToEqualArrayElements.cpp
@@ -83,6 +87,7 @@ add_library(leetcode_algo
     657_robotReturnToOrigin.cpp
     661_imageSmoother.cpp
     669_trimBST.cpp
+    671_2ndMinNodeInBinaryTree.cpp
     674_largestContinueIncreaseSequence.cpp
     682_baseballGame.cpp
     690_employeeImportance.cpp
@@ -147,6 +152,7 @@ add_library(leetcode_algo
     976_largestPerimeterTriangle.cpp
     977_squareOfSortedArray.cpp
     985_sumOfEvenNumberAfterQuery.cpp
+    989_addToArrayForm.cpp
     993_cousinsInBinaryTree.cpp
     994_rottingOranges.cpp
     997_findTheTownJudge.cpp
@@ -173,6 +179,7 @@ add_library(leetcode_algo
     1078_occurrencesAfterBigram.cpp
     1108_defangingIP.cpp
     1122_relativeSortArray.cpp
+    1128_numOfEqualDominoPairs.cpp
     addTwoNumbers.cpp
     ambiguousCoordinates.cpp
     longestSubstringWithoutRepeat.cpp
