@@ -1,4 +1,5 @@
 add_library(leetcode_algo
+    9_palindromeNumber.cpp
     13_romanToInteger.cpp
     21_mergeTwoSortedLists.cpp
     27_removeElements.cpp
@@ -15,10 +16,12 @@ add_library(leetcode_algo
     167_twoSum2.cpp
     169_majorityElement.cpp
     171_excelSheetColumnNumber.cpp
+    191_numberOfOneBits.cpp
     202_happyNumber.cpp
     206_reverseLinkedList.cpp
     217_containDuplicate.cpp
     226_invertBinaryTree.cpp
+    232_implementQueueWithStack.cpp
     235_lowestCommonAncestor.cpp
     237_deleteNodeInLinkedList.cpp
     242_validAnagram.cpp
@@ -37,6 +40,7 @@ add_library(leetcode_algo
     401_binaryWatch.cpp
     404_sumOfLeftLeaves.cpp
     409_longestPalindrome.cpp
+    415_addStrings.cpp
     429_naryTreeLevelOrderTraversal.cpp
     447_numOfBoomerangs.cpp
     448_findAllNumDisappear.cpp
