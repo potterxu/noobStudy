@@ -4,6 +4,7 @@ add_library(leetcode_algo
     21_mergeTwoSortedLists.cpp
     27_removeElements.cpp
     53_maxSubarray.cpp
+    66_plusOne.cpp
     70_climbStairs.cpp
     83_removeDuplicateFromSortedList.cpp
     100_sameTree.cpp
@@ -24,6 +25,7 @@ add_library(leetcode_algo
     206_reverseLinkedList.cpp
     217_containDuplicate.cpp
     226_invertBinaryTree.cpp
+    231_powerOfTwo.cpp
     232_implementQueueWithStack.cpp
     235_lowestCommonAncestor.cpp
     237_deleteNodeInLinkedList.cpp
@@ -33,7 +35,9 @@ add_library(leetcode_algo
     268_missingNumber.cpp
     283_moveZeros.cpp
     292_nimGame.cpp
+    326_powerOfThree.cpp
     344_reverseString.cpp
+    345_reverseVowelOfString.cpp
     349_intersectionOfTwoArray.cpp
     350_intersectionOfTwoArrays2.cpp
     371_sumOfTwoInt.cpp
@@ -42,6 +46,7 @@ add_library(leetcode_algo
     389_findTheDifference.cpp
     401_binaryWatch.cpp
     404_sumOfLeftLeaves.cpp
+    405_decToHex.cpp
     409_longestPalindrome.cpp
     415_addStrings.cpp
     429_naryTreeLevelOrderTraversal.cpp
@@ -72,6 +77,7 @@ add_library(leetcode_algo
     561_arrayPartition1.cpp
     563_binaryTreeTilt.cpp
     566_reshapeMatrix.cpp
+    572_subTreeOfAnotherTree.cpp
     575_distributeCandy.cpp
     589_NaryTreePreorderTraversal.cpp
     590_NaryTreePostorderTraversal.cpp
@@ -100,6 +106,7 @@ add_library(leetcode_algo
     709_toLowerCase.cpp
     717_1and2bitChar.cpp
     720_longestWordInDict.cpp
+    724_findPivotIndex.cpp
     728_selfDividingNumber.cpp
     733_floodFill.cpp
     744_findSmallestLetterLargerThanTarget.cpp
@@ -117,6 +124,7 @@ add_library(leetcode_algo
     806_numOfLinesToWriteString.cpp
     807_maxIncreaseToKeepCitySkyline.cpp
     811_subdomainVisitCount.cpp
+    819_mostCommonWord.cpp
     821_shortestDistanceToAChar.cpp
     824_goatLatin.cpp
     830_positionOfLargeGroups.cpp
