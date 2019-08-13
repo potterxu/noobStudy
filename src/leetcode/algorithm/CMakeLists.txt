@@ -12,6 +12,7 @@ add_library(leetcode_algo
     104_maxDepthOfBinaryTree.cpp
     107_BinaryTreeLevelOrderTraversal.cpp
     108_convertSortedArrayToBST.cpp
+    110_balancedBinaryTree.cpp
     118_pascalTriangle.cpp
     119_pascalTriangle2.cpp
     121_bestTimeToBuyAndSellStock.cpp
@@ -58,6 +59,7 @@ add_library(leetcode_algo
     461_hammingDistance.cpp
     463_islandPerimeter.cpp
     476_findComplement.cpp
+    482_licenseKeyFormat.cpp
     485_maxConsecutiveOnes.cpp
     492_constructRectangular.cpp
     496_nextGreaterElement1.cpp
@@ -131,6 +133,7 @@ add_library(leetcode_algo
     832_flipImage.cpp
     836_rectangleOverlap.cpp
     844_backspaceStringCompare.cpp
+    849_maxDistanceToClosestPeople.cpp
     852_peakIndexInMountainArray.cpp
     860_lemonadeChange.cpp
     867_transposeMatrix.cpp
