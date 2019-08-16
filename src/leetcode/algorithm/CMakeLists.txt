@@ -26,6 +26,8 @@ add_library(leetcode_algo
     202_happyNumber.cpp
     206_reverseLinkedList.cpp
     217_containDuplicate.cpp
+    225_implementStackUsingQueue_1Queue.cpp
+    225_implementStackUsingQueue_2Queue.cpp
     226_invertBinaryTree.cpp
     231_powerOfTwo.cpp
     232_implementQueueWithStack.cpp
@@ -39,6 +41,7 @@ add_library(leetcode_algo
     283_moveZeros.cpp
     292_nimGame.cpp
     326_powerOfThree.cpp
+    342_powerOfFour.cpp
     344_reverseString.cpp
     345_reverseVowelOfString.cpp
     349_intersectionOfTwoArray.cpp
@@ -58,6 +61,7 @@ add_library(leetcode_algo
     448_findAllNumDisappear.cpp
     453_minMovesToEqualArrayElements.cpp
     455_assignCookies.cpp
+    459_repeatSubstringPattern.cpp
     461_hammingDistance.cpp
     463_islandPerimeter.cpp
     476_findComplement.cpp
