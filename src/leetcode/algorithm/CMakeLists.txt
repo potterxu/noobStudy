@@ -3,6 +3,7 @@ add_library(leetcode_algo
     13_romanToInteger.cpp
     21_mergeTwoSortedLists.cpp
     27_removeElements.cpp
+    35_searchInsertPosition.cpp
     53_maxSubarray.cpp
     66_plusOne.cpp
     70_climbStairs.cpp
@@ -33,6 +34,7 @@ add_library(leetcode_algo
     242_validAnagram.cpp
     257_binaryTreePaths.cpp
     258_addDigits.cpp
+    263_uglyNumber.cpp
     268_missingNumber.cpp
     283_moveZeros.cpp
     292_nimGame.cpp
@@ -90,6 +92,7 @@ add_library(leetcode_algo
     617_mergeBST.cpp
     628_maximumProductOfThreeNumbers.cpp
     637_averageOfLevelsInBinaryTree.cpp
+    645_setMismatch.cpp
     653_twoSum4.cpp
     654_mbt.cpp
     657_robotReturnToOrigin.cpp
@@ -113,6 +116,7 @@ add_library(leetcode_algo
     733_floodFill.cpp
     744_findSmallestLetterLargerThanTarget.cpp
     746_minCostClimbStairs.cpp
+    747_dominantIndex.cpp
     748_shortestCompletionWord.cpp
     796_rotateString.cpp
     762_primeNumberOfSetBits.cpp
