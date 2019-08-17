@@ -6,6 +6,7 @@ add_library(leetcode_algo
     35_searchInsertPosition.cpp
     53_maxSubarray.cpp
     66_plusOne.cpp
+    67_addBinary.cpp
     70_climbStairs.cpp
     83_removeDuplicateFromSortedList.cpp
     100_sameTree.cpp
@@ -14,11 +15,13 @@ add_library(leetcode_algo
     107_BinaryTreeLevelOrderTraversal.cpp
     108_convertSortedArrayToBST.cpp
     110_balancedBinaryTree.cpp
+    112_pathSum.cpp
     118_pascalTriangle.cpp
     119_pascalTriangle2.cpp
     121_bestTimeToBuyAndSellStock.cpp
     122_bestTimeToBuyAndSellStock2.cpp
     136_singleNumber.cpp
+    155_minStack.cpp
     167_twoSum2.cpp
     169_majorityElement.cpp
     171_excelSheetColumnNumber.cpp
@@ -40,13 +43,17 @@ add_library(leetcode_algo
     268_missingNumber.cpp
     283_moveZeros.cpp
     292_nimGame.cpp
+    299_bullAndCows.cpp
+    303_rangeSumQueryImmutable.cpp
     326_powerOfThree.cpp
     342_powerOfFour.cpp
     344_reverseString.cpp
     345_reverseVowelOfString.cpp
     349_intersectionOfTwoArray.cpp
     350_intersectionOfTwoArrays2.cpp
+    367_validPerfectSquare.cpp
     371_sumOfTwoInt.cpp
+    374_guessNumberHigherOrLower.cpp
     383_ransomNote.cpp
     387_findUniqueChar.cpp
     389_findTheDifference.cpp
@@ -57,6 +64,7 @@ add_library(leetcode_algo
     415_addStrings.cpp
     429_naryTreeLevelOrderTraversal.cpp
     437_pathSum3.cpp
+    441_arrangingCoins.cpp
     447_numOfBoomerangs.cpp
     448_findAllNumDisappear.cpp
     453_minMovesToEqualArrayElements.cpp
@@ -70,6 +78,7 @@ add_library(leetcode_algo
     492_constructRectangular.cpp
     496_nextGreaterElement1.cpp
     500_keyboardRow.cpp
+    501_findModeInBST.cpp
     504_base7.cpp
     506_relativeRanks.cpp
     509_fibonacciNumber.cpp
@@ -96,6 +105,7 @@ add_library(leetcode_algo
     617_mergeBST.cpp
     628_maximumProductOfThreeNumbers.cpp
     637_averageOfLevelsInBinaryTree.cpp
+    643_maxAverageSubarray1.cpp
     645_setMismatch.cpp
     653_twoSum4.cpp
     654_mbt.cpp
@@ -168,6 +178,7 @@ add_library(leetcode_algo
     944_deleteColumnsToMakeSorted.cpp
     953_isAlienSorted.cpp
     961_nRepeatElement.cpp
+    970_powerfulIntegers.cpp
     976_largestPerimeterTriangle.cpp
     977_squareOfSortedArray.cpp
     985_sumOfEvenNumberAfterQuery.cpp
