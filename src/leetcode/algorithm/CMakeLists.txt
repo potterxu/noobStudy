@@ -21,12 +21,15 @@ add_library(leetcode_algo
     121_bestTimeToBuyAndSellStock.cpp
     122_bestTimeToBuyAndSellStock2.cpp
     136_singleNumber.cpp
+    141_linkedListCycle.cpp
     155_minStack.cpp
     167_twoSum2.cpp
     169_majorityElement.cpp
     171_excelSheetColumnNumber.cpp
+    172_factorialTrailingZero.cpp
     191_numberOfOneBits.cpp
     202_happyNumber.cpp
+    205_isomorphicStrings.cpp
     206_reverseLinkedList.cpp
     217_containDuplicate.cpp
     225_implementStackUsingQueue_1Queue.cpp
@@ -65,6 +68,7 @@ add_library(leetcode_algo
     429_naryTreeLevelOrderTraversal.cpp
     437_pathSum3.cpp
     441_arrangingCoins.cpp
+    443_stringCompression.cpp
     447_numOfBoomerangs.cpp
     448_findAllNumDisappear.cpp
     453_minMovesToEqualArrayElements.cpp
@@ -194,19 +198,20 @@ add_library(leetcode_algo
     1010_pairsOfSongs.cpp
     1013_partitionArrayIntoThreePartsOfEqualSum.cpp
     1018_binaryPrefixDividibleByFive.cpp
+    1021_removeOutermostParentheses.cpp
     1022_sumOfRootToLeaf.cpp
+    1025_divisorGame.cpp
     1029_twoCitySchedule.cpp
+    1030_matrixCellInDistanceOrder.cpp
+    1037_validBoomerang.cpp
     1038_bstToGst.cpp
     1042_flowerPlantingWithoutAdjacent.cpp
-    1071_gcdOfStrings.cpp
-    1089_duplicateZero.cpp
-    1021_removeOutermostParentheses.cpp
-    1025_divisorGame.cpp
-    1030_matrixCellInDistanceOrder.cpp
     1046_lastStoneWeight.cpp
     1047_removeAdjacentDuplicate.cpp
     1051_heightChecker.cpp
+    1071_gcdOfStrings.cpp
     1078_occurrencesAfterBigram.cpp
+    1089_duplicateZero.cpp
     1108_defangingIP.cpp
     1122_relativeSortArray.cpp
     1128_numOfEqualDominoPairs.cpp
