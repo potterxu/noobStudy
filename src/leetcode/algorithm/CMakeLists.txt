@@ -26,6 +26,7 @@ add_library(leetcode_algo
     136_singleNumber.cpp
     141_linkedListCycle.cpp
     155_minStack.cpp
+    160_intersectionOfLinkedList.cpp
     167_twoSum2.cpp
     169_majorityElement.cpp
     171_excelSheetColumnNumber.cpp
@@ -93,6 +94,7 @@ add_library(leetcode_algo
     501_findModeInBST.cpp
     504_base7.cpp
     506_relativeRanks.cpp
+    507_perfectNumber.cpp
     509_fibonacciNumber.cpp
     520_detectCapital.cpp
     521_longestUncommonSubstring1.cpp
@@ -126,6 +128,7 @@ add_library(leetcode_algo
     669_trimBST.cpp
     671_2ndMinNodeInBinaryTree.cpp
     674_largestContinueIncreaseSequence.cpp
+    680_validPalindrome2.cpp
     682_baseballGame.cpp
     690_employeeImportance.cpp
     693_hasAlternatingBits.cpp
@@ -187,8 +190,10 @@ add_library(leetcode_algo
     933_numOfRecentCalls.cpp
     937_reorderLogs.cpp
     938_rangeSumOfBst.cpp
+    941_validMountainArray.cpp
     942_diStringMatch.cpp
     944_deleteColumnsToMakeSorted.cpp
+    949_largestTimeForGivenDigits.cpp
     953_isAlienSorted.cpp
     961_nRepeatElement.cpp
     970_powerfulIntegers.cpp
