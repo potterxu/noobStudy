@@ -1,6 +1,7 @@
 add_library(leetcode_algo
     9_palindromeNumber.cpp
     13_romanToInteger.cpp
+    20_validParentheses.cpp
     21_mergeTwoSortedLists.cpp
     27_removeElements.cpp
     35_searchInsertPosition.cpp
@@ -9,12 +10,14 @@ add_library(leetcode_algo
     67_addBinary.cpp
     70_climbStairs.cpp
     83_removeDuplicateFromSortedList.cpp
+    88_mergeSortedArray.cpp
     100_sameTree.cpp
     101_symmetricTree.cpp
     104_maxDepthOfBinaryTree.cpp
     107_BinaryTreeLevelOrderTraversal.cpp
     108_convertSortedArrayToBST.cpp
     110_balancedBinaryTree.cpp
+    111_minDepthOfBinaryTree.cpp
     112_pathSum.cpp
     118_pascalTriangle.cpp
     119_pascalTriangle2.cpp
@@ -29,14 +32,17 @@ add_library(leetcode_algo
     172_factorialTrailingZero.cpp
     191_numberOfOneBits.cpp
     202_happyNumber.cpp
+    203_removeLinkedListElements.cpp
     205_isomorphicStrings.cpp
     206_reverseLinkedList.cpp
     217_containDuplicate.cpp
+    219_containDuplicate2.cpp
     225_implementStackUsingQueue_1Queue.cpp
     225_implementStackUsingQueue_2Queue.cpp
     226_invertBinaryTree.cpp
     231_powerOfTwo.cpp
     232_implementQueueWithStack.cpp
+    234_palindromeLinkedList.cpp
     235_lowestCommonAncestor.cpp
     237_deleteNodeInLinkedList.cpp
     242_validAnagram.cpp
@@ -45,6 +51,7 @@ add_library(leetcode_algo
     263_uglyNumber.cpp
     268_missingNumber.cpp
     283_moveZeros.cpp
+    290_wordPattern.cpp
     292_nimGame.cpp
     299_bullAndCows.cpp
     303_rangeSumQueryImmutable.cpp
@@ -66,6 +73,7 @@ add_library(leetcode_algo
     409_longestPalindrome.cpp
     415_addStrings.cpp
     429_naryTreeLevelOrderTraversal.cpp
+    434_numberOfSegmentsInString.cpp
     437_pathSum3.cpp
     441_arrangingCoins.cpp
     443_stringCompression.cpp
@@ -154,6 +162,7 @@ add_library(leetcode_algo
     830_positionOfLargeGroups.cpp
     832_flipImage.cpp
     836_rectangleOverlap.cpp
+    840_magicSquaresInGrid.cpp
     844_backspaceStringCompare.cpp
     849_maxDistanceToClosestPeople.cpp
     852_peakIndexInMountainArray.cpp
@@ -203,6 +212,7 @@ add_library(leetcode_algo
     1025_divisorGame.cpp
     1029_twoCitySchedule.cpp
     1030_matrixCellInDistanceOrder.cpp
+    1033_moveStonesUntilConsecutive.cpp
     1037_validBoomerang.cpp
     1038_bstToGst.cpp
     1042_flowerPlantingWithoutAdjacent.cpp
