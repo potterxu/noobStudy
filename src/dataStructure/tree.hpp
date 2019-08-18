@@ -88,17 +88,17 @@ public:
     void insert(T t) override
     {
         TreeNode<T> *node = new TreeNode<T>(t);
-        m_root = _insert(m_root, node);
+        this->m_root = _insert(this->m_root, node);
     }
 
     void remove(T t) override
     {
-        _remove(m_root, t);
+        _remove(this->m_root, t);
     }
 
     void print() override
     {
-        _print(m_root);
+        _print(this->m_root);
     }
 
 protected:
@@ -125,7 +125,7 @@ protected:
         return root;
     }
 
-    TreeNode<T> *_min()
+    TreeNode<T> *_min(TreeNode<T> *root)
     {
         while (root->m_left != nullptr) {
             root = root->m_left;
@@ -156,7 +156,7 @@ protected:
             } else {
                 TreeNode<T> *newRoot = root->m_left;
                 newRoot->m_left = _remove(root->m_left, newRoot->m_value);
-                newRoot->m_right = m_root->m_right;
+                newRoot->m_right = this->m_root->m_right;
                 delete root;
                 return newRoot;
             }
@@ -185,7 +185,7 @@ class AVLTree : public BinarySearchTree<T>
 {
 public:
     AVLTree()
-    : BinarySearchTree()
+    : BinarySearchTree<T>()
     {
 
     }
@@ -308,7 +308,7 @@ protected:
             } else {
                 TreeNode<T> *newRoot = root->m_left;
                 newRoot->m_left = _remove(root->m_left, newRoot->m_value);
-                newRoot->m_right = m_root->m_right;
+                newRoot->m_right = this->m_root->m_right;
                 delete root;
                 return newRoot;
             }
