@@ -8,8 +8,10 @@ add_library(leetcode_algo
     28_implementStrStr.cpp
     35_searchInsertPosition.cpp
     53_maxSubarray.cpp
+    58_lengthOfLastWord.cpp
     66_plusOne.cpp
     67_addBinary.cpp
+    69_sqrt.cpp
     70_climbStairs.cpp
     83_removeDuplicateFromSortedList.cpp
     88_mergeSortedArray.cpp
@@ -25,6 +27,7 @@ add_library(leetcode_algo
     119_pascalTriangle2.cpp
     121_bestTimeToBuyAndSellStock.cpp
     122_bestTimeToBuyAndSellStock2.cpp
+    125_validPalindrome.cpp
     136_singleNumber.cpp
     141_linkedListCycle.cpp
     155_minStack.cpp
@@ -33,6 +36,7 @@ add_library(leetcode_algo
     169_majorityElement.cpp
     171_excelSheetColumnNumber.cpp
     172_factorialTrailingZero.cpp
+    190_reverseBits.cpp
     191_numberOfOneBits.cpp
     202_happyNumber.cpp
     203_removeLinkedListElements.cpp
@@ -87,6 +91,7 @@ add_library(leetcode_algo
     459_repeatSubstringPattern.cpp
     461_hammingDistance.cpp
     463_islandPerimeter.cpp
+    475_heaters.cpp
     476_findComplement.cpp
     482_licenseKeyFormat.cpp
     485_maxConsecutiveOnes.cpp
