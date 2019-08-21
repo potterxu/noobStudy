@@ -1,9 +1,11 @@
 add_library(leetcode_algo
     9_palindromeNumber.cpp
     13_romanToInteger.cpp
+    14_longestCommonPrefix.cpp
     20_validParentheses.cpp
     21_mergeTwoSortedLists.cpp
     27_removeElements.cpp
+    28_implementStrStr.cpp
     35_searchInsertPosition.cpp
     53_maxSubarray.cpp
     66_plusOne.cpp
@@ -118,6 +120,7 @@ add_library(leetcode_algo
     606_constructStringFromBinaryTree.cpp
     617_mergeBST.cpp
     628_maximumProductOfThreeNumbers.cpp
+    633_sumOfSquareNumbers.cpp
     637_averageOfLevelsInBinaryTree.cpp
     643_maxAverageSubarray1.cpp
     645_setMismatch.cpp
@@ -147,7 +150,7 @@ add_library(leetcode_algo
     746_minCostClimbStairs.cpp
     747_dominantIndex.cpp
     748_shortestCompletionWord.cpp
-    796_rotateString.cpp
+    754_reachNumber.cpp
     762_primeNumberOfSetBits.cpp
     766_toeplitzMatrix.cpp
     771_jewelInStone.cpp
@@ -173,6 +176,7 @@ add_library(leetcode_algo
     867_transposeMatrix.cpp
     868_binaryGap.cpp
     872_leafSimilarTree.cpp
+    874_walkingRobotSimulation.cpp
     876_midOfLinkedList.cpp
     883_projectionAreaOf3dShapes.cpp
     884_uncommonWords.cpp
@@ -183,6 +187,7 @@ add_library(leetcode_algo
     897_increasingOrderSearchTree.cpp
     905_sortByParity.cpp
     908_smallestRange1.cpp
+    914_xOfAKindInADeckOfCards.cpp
     917_reverseOnlyLetters.cpp
     922_sortArrayByParity2.cpp
     925_longPressedName.cpp
