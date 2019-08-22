@@ -36,6 +36,7 @@ add_library(leetcode_algo
     169_majorityElement.cpp
     171_excelSheetColumnNumber.cpp
     172_factorialTrailingZero.cpp
+    189_rotateArray.cpp
     190_reverseBits.cpp
     191_numberOfOneBits.cpp
     202_happyNumber.cpp
@@ -57,6 +58,7 @@ add_library(leetcode_algo
     258_addDigits.cpp
     263_uglyNumber.cpp
     268_missingNumber.cpp
+    278_firstBadVersion.cpp
     283_moveZeros.cpp
     290_wordPattern.cpp
     292_nimGame.cpp
@@ -122,6 +124,7 @@ add_library(leetcode_algo
     594_findLHS.cpp
     598_rangeAddition2.cpp
     599_minIndexSumOfTwoLists.cpp
+    605_canPlaceFlowers.cpp
     606_constructStringFromBinaryTree.cpp
     617_mergeBST.cpp
     628_maximumProductOfThreeNumbers.cpp
@@ -138,6 +141,7 @@ add_library(leetcode_algo
     674_largestContinueIncreaseSequence.cpp
     680_validPalindrome2.cpp
     682_baseballGame.cpp
+    686_repeatedStringMatch.cpp
     690_employeeImportance.cpp
     693_hasAlternatingBits.cpp
     696_countBinarySubStrings.cpp
