@@ -1,4 +1,5 @@
 add_library(leetcode_algo
+    7_reverseInt.cpp
     9_palindromeNumber.cpp
     13_romanToInteger.cpp
     14_longestCommonPrefix.cpp
@@ -33,6 +34,7 @@ add_library(leetcode_algo
     155_minStack.cpp
     160_intersectionOfLinkedList.cpp
     167_twoSum2.cpp
+    168_excelSheetColumnTitle.cpp
     169_majorityElement.cpp
     171_excelSheetColumnNumber.cpp
     172_factorialTrailingZero.cpp
@@ -41,6 +43,7 @@ add_library(leetcode_algo
     191_numberOfOneBits.cpp
     202_happyNumber.cpp
     203_removeLinkedListElements.cpp
+    204_countPrimes.cpp
     205_isomorphicStrings.cpp
     206_reverseLinkedList.cpp
     217_containDuplicate.cpp
@@ -80,6 +83,7 @@ add_library(leetcode_algo
     404_sumOfLeftLeaves.cpp
     405_decToHex.cpp
     409_longestPalindrome.cpp
+    414_thirdMaxNumber.cpp
     415_addStrings.cpp
     429_naryTreeLevelOrderTraversal.cpp
     434_numberOfSegmentsInString.cpp
@@ -108,6 +112,7 @@ add_library(leetcode_algo
     520_detectCapital.cpp
     521_longestUncommonSubstring1.cpp
     530_minAbsDiffInBST.cpp
+    532_kDiffPairs.cpp
     538_convertBSTtoGT.cpp
     541_reverseString2.cpp
     543_diameterOfBinaryTree.cpp
@@ -119,6 +124,7 @@ add_library(leetcode_algo
     566_reshapeMatrix.cpp
     572_subTreeOfAnotherTree.cpp
     575_distributeCandy.cpp
+    581_shortestUnsortedSubarray.cpp
     589_NaryTreePreorderTraversal.cpp
     590_NaryTreePostorderTraversal.cpp
     594_findLHS.cpp
@@ -136,6 +142,7 @@ add_library(leetcode_algo
     654_mbt.cpp
     657_robotReturnToOrigin.cpp
     661_imageSmoother.cpp
+    665_nonDecreaseArray.cpp
     669_trimBST.cpp
     671_2ndMinNodeInBinaryTree.cpp
     674_largestContinueIncreaseSequence.cpp
@@ -181,6 +188,7 @@ add_library(leetcode_algo
     844_backspaceStringCompare.cpp
     849_maxDistanceToClosestPeople.cpp
     852_peakIndexInMountainArray.cpp
+    859_buddyString.cpp
     860_lemonadeChange.cpp
     867_transposeMatrix.cpp
     868_binaryGap.cpp
