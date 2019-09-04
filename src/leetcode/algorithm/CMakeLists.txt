@@ -216,6 +216,7 @@ add_library(leetcode_algo
     942_diStringMatch.cpp
     944_deleteColumnsToMakeSorted.cpp
     949_largestTimeForGivenDigits.cpp
+    950_revealCardsInIncreasingOrder.cpp
     953_isAlienSorted.cpp
     961_nRepeatElement.cpp
     970_powerfulIntegers.cpp
