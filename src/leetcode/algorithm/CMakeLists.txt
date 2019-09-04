@@ -231,6 +231,7 @@ add_library(leetcode_algo
     1002_findCommonChar.cpp
     1003_distributeCandyToPeople.cpp
     1005_maxSumAfterKNegation.cpp
+    1008_constructBinaryTreeFromPreorderTraversal.cpp
     1009_bitwiseComplement.cpp
     1010_pairsOfSongs.cpp
     1013_partitionArrayIntoThreePartsOfEqualSum.cpp
