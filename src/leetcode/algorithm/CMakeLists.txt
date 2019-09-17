@@ -1,6 +1,7 @@
 add_library(leetcode_algo
     7_reverseInt.cpp
     9_palindromeNumber.cpp
+    10_regularExpressionMatch.cpp
     13_romanToInteger.cpp
     14_longestCommonPrefix.cpp
     20_validParentheses.cpp
@@ -138,6 +139,7 @@ add_library(leetcode_algo
     637_averageOfLevelsInBinaryTree.cpp
     643_maxAverageSubarray1.cpp
     645_setMismatch.cpp
+    647_palindromicSubStrings.cpp
     653_twoSum4.cpp
     654_mbt.cpp
     657_robotReturnToOrigin.cpp
