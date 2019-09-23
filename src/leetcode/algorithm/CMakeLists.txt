@@ -11,6 +11,7 @@ add_library(leetcode_algo
     35_searchInsertPosition.cpp
     53_maxSubarray.cpp
     58_lengthOfLastWord.cpp
+    62_uniquePath.cpp
     66_plusOne.cpp
     67_addBinary.cpp
     69_sqrt.cpp
@@ -159,6 +160,7 @@ add_library(leetcode_algo
     701_insertIntoBST.cpp
     704_binarySearch.cpp
     709_toLowerCase.cpp
+    713_subArrayProductLessThanK.cpp
     717_1and2bitChar.cpp
     720_longestWordInDict.cpp
     724_findPivotIndex.cpp
