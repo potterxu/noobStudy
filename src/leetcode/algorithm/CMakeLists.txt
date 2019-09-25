@@ -252,7 +252,6 @@ add_library(leetcode_algo
     1046_lastStoneWeight.cpp
     1047_removeAdjacentDuplicate.cpp
     1051_heightChecker.cpp
-    1161_maxLevelSumOfBinaryTree.cpp
     1071_gcdOfStrings.cpp
     1078_occurrencesAfterBigram.cpp
     1079_letterTilePossibilities.cpp
@@ -260,6 +259,8 @@ add_library(leetcode_algo
     1108_defangingIP.cpp
     1122_relativeSortArray.cpp
     1128_numOfEqualDominoPairs.cpp
+    1161_maxLevelSumOfBinaryTree.cpp
+    1171_removeZeroSumNodesFromLinkedList.cpp
     addTwoNumbers.cpp
     ambiguousCoordinates.cpp
     longestSubstringWithoutRepeat.cpp
