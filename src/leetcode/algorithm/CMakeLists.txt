@@ -16,8 +16,10 @@ add_library(leetcode_algo
     67_addBinary.cpp
     69_sqrt.cpp
     70_climbStairs.cpp
+    78_subsets.cpp
     83_removeDuplicateFromSortedList.cpp
     88_mergeSortedArray.cpp
+    93_restoreIpAddress.cpp
     100_sameTree.cpp
     101_symmetricTree.cpp
     104_maxDepthOfBinaryTree.cpp
