@@ -176,6 +176,7 @@ add_library(leetcode_algo
     762_primeNumberOfSetBits.cpp
     766_toeplitzMatrix.cpp
     771_jewelInStone.cpp
+    779_kthGrammar.cpp
     783_minDistanceInBST.cpp
     784_letterCasePermutation.cpp
     788_rotatedDigits.cpp
