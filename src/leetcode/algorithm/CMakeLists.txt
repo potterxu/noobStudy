@@ -264,6 +264,7 @@ add_library(leetcode_algo
     1128_numOfEqualDominoPairs.cpp
     1161_maxLevelSumOfBinaryTree.cpp
     1171_removeZeroSumNodesFromLinkedList.cpp
+    1227_nthPersonInNthSeat.cpp
     addTwoNumbers.cpp
     ambiguousCoordinates.cpp
     longestSubstringWithoutRepeat.cpp
