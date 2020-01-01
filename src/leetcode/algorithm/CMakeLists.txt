@@ -12,6 +12,7 @@ add_library(leetcode_algo
     53_maxSubarray.cpp
     58_lengthOfLastWord.cpp
     62_uniquePath.cpp
+    64_minPathSum.cpp
     66_plusOne.cpp
     67_addBinary.cpp
     69_sqrt.cpp
@@ -33,6 +34,7 @@ add_library(leetcode_algo
     121_bestTimeToBuyAndSellStock.cpp
     122_bestTimeToBuyAndSellStock2.cpp
     125_validPalindrome.cpp
+    135_candy.cpp
     136_singleNumber.cpp
     141_linkedListCycle.cpp
     155_minStack.cpp
@@ -187,6 +189,7 @@ add_library(leetcode_algo
     811_subdomainVisitCount.cpp
     819_mostCommonWord.cpp
     821_shortestDistanceToAChar.cpp
+    823_numFactoryBST.cpp
     824_goatLatin.cpp
     830_positionOfLargeGroups.cpp
     832_flipImage.cpp
