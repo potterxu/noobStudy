@@ -194,6 +194,7 @@ add_library(leetcode_algo
     830_positionOfLargeGroups.cpp
     832_flipImage.cpp
     836_rectangleOverlap.cpp
+    837_new21Game.cpp
     840_magicSquaresInGrid.cpp
     844_backspaceStringCompare.cpp
     849_maxDistanceToClosestPeople.cpp
